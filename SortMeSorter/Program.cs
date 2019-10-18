@@ -72,7 +72,7 @@ namespace SortMeSorter
             {
                 if (name.Length > 0)
                 {
-                    //size++; This is now broken
+                    size++;
                 }
             }
             return size;

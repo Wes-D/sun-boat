@@ -11,7 +11,8 @@ namespace SortMeSorter
             Console.WriteLine("Welcome to the Sort Me.txt Sorter!");
             Console.WriteLine("Created By: Charles Dow");
             Console.WriteLine("Created On: 09 October 2019");
-            Console.WriteLine("----------------------------------");
+            Console.WriteLine("Last Updated On: 17 October 2019");
+            Console.WriteLine("----------- (>^_^)> <(^_-)> <(^_^<) -----------");
             Console.WriteLine(" ");
 
             //Ask for file path
@@ -71,7 +72,7 @@ namespace SortMeSorter
             {
                 if (name.Length > 0)
                 {
-                    size++;
+                    //size++; This is now broken
                 }
             }
             return size;
